@@ -5,9 +5,7 @@ const SearchExercises = () => {
   const [search, setSearch] = useState("");
 
   const handleSearch = async () => {
-    if (search) {
-      //   const exercisesData = await fetchData()
-    }
+    console.log(search);
   };
 
   return (
